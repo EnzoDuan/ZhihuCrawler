@@ -11,10 +11,10 @@ time.sleep(2)                            #让操作稍微停一下
 driver.find_element_by_link_text('登录').click() #找到‘登录’按钮并点击
 time.sleep(2)
 #找到输入账号的框，并自动输入账号 这里要替换为你的登录账号                              
-driver.find_element_by_name('account').send_keys('897380742@qq.com') 
+driver.find_element_by_name('account').send_keys('your account number') 
 time.sleep(2)
 #密码，这里要替换为你的密码
-driver.find_element_by_name('password').send_keys('djh123456')
+driver.find_element_by_name('password').send_keys('your password')
 time.sleep(2)
 #输入浏览器中显示的验证码，这里如果知乎让你找烦人的倒立汉字，手动登录一下，再停止程序，退出#浏览器，然后重新启动程序，直到让你输入验证码
 yanzhengma=input('验证码:')
