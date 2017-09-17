@@ -14,10 +14,10 @@ time.sleep(2)                                                                #�
 driver.find_element_by_link_text('登录').click()                              #找到‘登录’按钮并点击
 time.sleep(0.5)
                           
-driver.find_element_by_name('account').send_keys('897380742@qq.com') 
+driver.find_element_by_name('account').send_keys('your account number') 
 time.sleep(0.5)
 
-driver.find_element_by_name('password').send_keys('djh123456')
+driver.find_element_by_name('password').send_keys('your password')
 time.sleep(0.5)
 
 yanzhengma=input('验证码:')
